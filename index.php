@@ -6,4 +6,4 @@ use Slim\Factory\AppFactory;
 require __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/src/config/db.php';
 $app = AppFactory::create();
-require __DIR__ . '/src/routes/users.php';
+require __DIR__ . '/src/routes/users.php';//added git
